@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TreeReader
+comment1.params=filePath
+comment1.target=TreeReader(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ TreeReader.\ Throws\ IOException\ \n\ if\ the\ file\ is\ not\ found.\ \n\ Ideally,\ the\ dataset\ would\ contain\ the\ first\ four\ columns\ for\ categories\ \n\ and\ the\ fifth\ column\ for\ the\ destinations.\ \ \ \n\ \n\ @param\ filePath\ is\ a\ string\ that\ indicates\ where\ the\ file\ is\ \n\ and\ the\ name\ of\ the\ file.\ (ex.\ datasets.csv)\n
+comment2.params=filepath
+comment2.target=fastcsv.CsvParser\ getParser(java.lang.String)
+comment2.text=\n\ Given\ a\ filepath,\ will\ return\ a\ CsvParser\ that\ can\ be\ used\ to\ iterate\ \n\ over\ the\ rows\ of\ the\ dataset.\ Assumes\ that\ the\ file\ contains\ a\ header,\n\ and\ that\ the\ data\ are\ in\ UTF_8\ format.\n\n\ @throws\ IOException\n\ @param\ filepath\ -\ the\ filepath\ to\ this\ file.\n\ @return\ the\ parser\ over\ this\ file.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\ \n\ Formats\ the\ tree\ in\ a\ level-order\ traversal.\ \n\ \n\ @return\ String\ that\ formats\ the\ nodes\ in\ the\ tree.\ \n
+comment4.params=
+comment4.target=LinkedQuaternaryTree\ startQuestionnaire()
+comment4.text=\ \n\ Retrieves\ the\ decision\ tree.\ \n\ \n\ @return\ the\ instance\ variable\ of\ a\ quaternary\ tree.\ \n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\ \n\ Main\ method\ with\ test\ codes.\ \n
+numComments=6

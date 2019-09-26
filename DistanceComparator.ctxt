@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DistanceComparator
+comment1.params=s
+comment1.target=void\ setStart(java.lang.String)
+comment1.text=\n\ Sets\ the\ start\ station.\ Should\ be\ equal\ to\ the\ start\ station\ in\ \n\ UserSubwayRoute.\ Needs\ to\ be\ called\ before\ comparator\ is\ used.\n\ \n\ @param\ start\ station\ name\ String\n\ @return\ void\n
+comment2.params=o1\ o2
+comment2.target=int\ compare(java.lang.Object,\ java.lang.Object)
+comment2.text=\n\ Compares\ o1\ and\ o2\ by\ their\ distances\ from\ the\ specified\ start\ station.\n\ @param\ two\ subway\ stations\n\ @return\ 1\ if\ o1\ is\ greater\ than\ o2,\ -1\ if\ less\ than,\ and\ 0\ if\ they\ are\ equal.\n
+numComments=3

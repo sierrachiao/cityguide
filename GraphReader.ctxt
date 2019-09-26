@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GraphReader
+comment1.params=nodesFilePath\ edgesFilePath
+comment1.target=GraphReader(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Reader\n\ Given\ a\ filepath\ for\ the\ nodes\ and\ edges\ of\ a\ dataset,\ will\ initialize\n\ a\ graph\ connecting\ elements\ of\ the\ dataset\n\ @param\ \ nodesFilePath\ \ filepath\ storing\ each\ SubwayStation\ node\n\ @param\ \ edgesFilePath\ \ filepath\ storing\ the\ edges\ between\ SubwayStations\n
+comment2.params=filepath
+comment2.target=fastcsv.CsvParser\ getParser(java.lang.String)
+comment2.text=\n\ THIS\ METHOD\ IS\ DIRECTLY\ FROM\ READER.JAVA\ WRITTEN\ BY\ ANGELINA\ LI\n\ Given\ a\ filepath,\ will\ return\ a\ CsvParser\ that\ can\ be\ used\ to\ iterate\ \n\ over\ the\ rows\ of\ the\ dataset.\ Assumes\ that\ the\ file\ contains\ a\ header,\n\ and\ that\ the\ data\ are\ in\ UTF_8\ format.\n\n\ @throws\ IOException\n\ @param\ filepath\ -\ the\ filepath\ to\ this\ file.\n\ @return\ the\ parser\ over\ this\ file.\n
+comment3.params=
+comment3.target=javafoundations.AdjListsGraph\ getGraph()
+comment3.text=\n\ Returns\ the\ AdjListsGraph\ created\ from\ the\ dataset\n
+comment4.params=
+comment4.target=java.util.Map\ getNameMap()
+comment4.text=\n\ Returns\ a\ name\ map\ that\ maps\ each\ SubwayStation\ name\ to\ its\n\ corresponding\ SubwayStation\n
+numComments=5

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=SubwayStation
+comment1.params=n\ l\ a\ d
+comment1.target=SubwayStation(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.Vector)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SubwayStation\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ @return\ the\ name\ of\ this\ SubwayStation\n
+comment3.params=
+comment3.target=java.lang.String\ getLine()
+comment3.text=\n\ @return\ the\ MBTA\ line\ of\ this\ SubwayStation\n
+comment4.params=
+comment4.target=java.lang.String\ getArea()
+comment4.text=\n\ @return\ the\ area\ of\ Boston\ of\ this\ SubwayStation\n
+comment5.params=
+comment5.target=java.util.Vector\ getDestinations()
+comment5.text=\n\ @return\ the\ list\ of\ destinations\ close\ to\ this\ SubwayStation\ as\ a\ Vector<String>\n
+comment6.params=destination
+comment6.target=boolean\ containsDestination(java.lang.String)
+comment6.text=\n\ Determines\ if\ this\ SubwayStation\ contains\ the\ given\ destination\n\ @param\ \ destination\ \ determine\ if\ there\ is\ a\ station\ that\ has\ given\ destination\n\ @return\ \ true\ if\ a\ station\ has\ given\ destination,\ false\ otherwise\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ @return\ \ String\ representation\ of\ this\ SubwayStation\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\n\ Main\ method\ to\ test\ the\ contents\ of\ the\ class\n
+numComments=9
